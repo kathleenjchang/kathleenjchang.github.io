@@ -407,7 +407,7 @@ body {
 }
 
 #f1-bg {
-	background-image: url("simple.png");
+	background-image: url("simple.PNG");
 	background-size:cover;
 	width: 100vw;
 	background-repeat: no-repeat;
@@ -493,7 +493,7 @@ body {
 
 /*START Projects */
 #bee {
-	background-image: url("DSC00735.jpg");
+	background-image: url("DSC00735.JPG");
 	background-size: cover;
 	width: 400px;
 	height: 200px;
