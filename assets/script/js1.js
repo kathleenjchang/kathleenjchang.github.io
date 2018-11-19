@@ -11,7 +11,7 @@ $(document).ready(function() {
     //<div id = #pictureno>tag</div>
     let id = "'" + pictures[i] + "'";
     $("#organize-pics").append("<div id ="+id+" >"+tag[i]+"</div>");
-    $("#" +pictures[i] ).css("background-image","url('assets/img/" + pictures[i] + ".jpg')");
+    $("#" +pictures[i] ).css("background-image","url('assets/img/" + pictures[i] + ".JPG')");
 
     $("#" +pictures[i]).css("width", "400px");
     $("#" +pictures[i]).css("height", "200px");
