@@ -1,0 +1,562 @@
+/*Imports*/
+@font-face{
+	font-family:'Nintendo DS BIOS';
+	src:url('assets/fonts/nintendo.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'kindergarten';
+	src:url('assets/fonts/kindergarten.ttf') format('truetype');
+}
+/*General Tags*/
+html {
+	font-family: 'Verdana', sans-serif;
+}
+h1 {
+	color: white;
+	margin: 20px;
+	z-index: 1;
+}
+p {
+	margin: 20px;
+	color: white;
+	z-index: 1;
+}
+a:hover {
+	cursor: pointer;
+	color: blue;
+
+}
+a {
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+}
+body {
+	font-family: 'Nintendo DS BIOS';
+	background-color: white;
+}
+
+/*END General Tags*/
+/*START Index*/
+.mega-cont {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	background-image: url("background.PNG");
+	background-size:cover;
+	height: 95vh;
+	width: 80vw;
+	margin-right: auto;
+	margin-left:auto;
+	position: absolute;
+	top: 6%;
+	padding: 35px;
+
+}
+
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 20px;
+}
+.greeting {
+	font-family: 'Nintendo DS BIOS';
+	font-size: 60px;
+	color: white;
+}
+
+.yt {
+	font-family: 'Nintendo DS BIOS';
+	font-size: 40px;
+	color: white;
+
+	/* color: #bfd7db; */
+}
+.temp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#mainphoto{
+	width: 40%;
+	max-width: 600px;
+	transform: rotate(2deg);
+	animation: spin 2s ease-in 0s 1 reverse;
+}
+#mainphoto:hover {
+	animation: spin 2s linear 0s infinite normal;
+}
+.flex2impress {
+	margin: 70px 0px 0px 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+
+.nav {
+	padding: 40px;
+	max-height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: flex-start;
+	font-size: 60px;
+
+}
+.linkages {
+	margin: 10px;
+}
+
+#contact {
+	position: absolute;
+	bottom: 15vh;
+	margin: 15px;
+	font-size: 20px;
+	color: white;
+
+}
+
+/*END Index*/
+
+.projects {
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+
+}
+
+.container2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+}
+
+.box {
+	background-color: black;
+	color: white;
+	height: 300px;
+	width: 500px;
+	margin: 20px;
+	overflow: hidden;
+	object-fit: contain;
+	z-index: 4;
+
+}
+
+.containerpic {
+	position: absolute;
+}
+
+
+.overlay {
+	position: absolute;
+	opacity: 0;
+	background-color: #008CBA;
+}
+.containerpic:hover .overlay{
+	color: white;
+	opacity: 0.6;
+
+	width: 1000px;
+}
+/* organize pictures */
+.pho {
+	width: 400px;
+	margin: 100px;
+
+}
+
+#pho-title {
+	position: fixed;
+	right: 40px;
+	bottom: 60px;
+	font-size: 60px;
+}
+#organize-pics {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+}
+/* end organize pictures */
+
+#canvas {
+	scroll-snap-type: x mandatory;
+	scroll-snap-points-y: repeat(800px);
+
+}
+.intro-title{
+	font-family: 'Nintendo DS BIOS';
+	font-size: 60px;
+	color: black;
+	margin: 20px;
+}
+
+.projects-title{
+	font-family: 'Nintendo DS BIOS';
+	font-size: 60px;
+	color: white;
+}
+
+.flex-intro {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+.txt {
+	font-size: 30px;
+	width: 300px;
+	font-family: "Nintendo DS BIOS";
+}
+
+#intro-pic {
+	width: 400px;
+	margin: 40px;
+	opacity: 0;
+	animation:	pulsing 3s linear 0s infinite alternate-reverse;
+
+}
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.descript {
+	font-family: 'Nintendo DS BIOS';
+	font-size: 20px;
+}
+
+/*food*/
+.flex2center{
+	/* display:flex;
+	width: 90vw;
+
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	scroll-snap-type: x mandatory; */
+	scroll-snap-type: x mandatory;
+}
+.fpic {
+	margin: 100px;
+	width: 60vw;
+	height:auto;
+
+}
+
+/*END : food*/
+
+.central {
+	color: white;
+	display: inline;
+	position: absolute;
+	left: 45%;
+	font-size: 40px;
+}
+.nav-links {
+	font-family: 'Nintendo DS BIOS';
+	margin: 20px;
+	text-decoration: none;
+	color: white;
+	z-index: 2;
+
+}
+
+
+.navbar2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+.nav-links2 {
+	font-family: 'Nintendo DS BIOS';
+	color: black;
+	font-size: 20px;
+	text-align: right;
+	margin: 20px;
+}
+.nav-links3 {
+	font-family: 'Nintendo DS BIOS';
+	color: black;
+	font-size: 20px;
+	text-align: right;
+	margin: 20px;
+}
+.flex-row {
+	margin:40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-links:hover{
+	text-decoration: underline;
+	color: #3D8FA8;
+
+}
+/*START HOBBIES */
+.nav-links4 {
+	position: fixed;
+	color: white;
+	top: 20px;
+	right: 20px;
+	z-index: 1000;
+
+
+}
+
+.nl4 {
+	font-size: 15px;
+	margin: 10px;
+}
+.hbox {
+	width: 300vw;
+	height: 100vh;
+
+}
+
+#f1 {
+	width: 100vw;
+	height: 95vh;
+	position: absolute;
+	top: 0px;
+	background: url('simple.PNG');
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-attachment: scroll;
+
+}
+
+
+#f2 {
+	width: 100vw;
+	height: 95vh;
+	position: absolute;
+	left: 100vw;
+	top: 0px;
+	background: url('emails.PNG');
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-attachment: scroll;
+
+
+}
+
+#bg {
+	width: 400vw;
+	height: 95vh;
+	position: absolute;
+	top: 0px;
+	background-image: url('bg.PNG');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#img2 {
+	width: 1000px;
+	display: block;
+	position: absolute;
+	left: 105vw;
+
+}
+.tennis-background {
+	background: url('simple.PNG') no-repeat center center fixed;
+
+}
+
+.f1-background {
+	background: url('simple.PNG') no-repeat center center fixed;
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+}
+
+#shadow {
+	position: absolute;
+	left: 220px;
+	top: 320px;
+	z-index:2;
+}
+
+#ball {
+	height: 150px;
+	width: auto;
+	position: absolute;
+	left: 300px;
+	top: 400px;
+	animation: upDown 1s ease-out 0s infinite reverse;
+	z-index: 3;
+}
+
+.omfg {
+	width: 100vw;
+}
+
+#f1-bg {
+	background-image: url("simple.png");
+	background-size:cover;
+	width: 100vw;
+	background-repeat: no-repeat;
+}
+
+#f2-bg {
+	background-color: black;
+}
+#tempbg {
+	width: 80vw;
+
+}
+#showlater {
+	color: #01ff1f;
+	z-index: 1;
+}
+#terminal {
+	width: 50vw;
+	position: absolute;
+	top: 40px;
+	left: 50px;
+	z-index: 2;
+}
+#mlab {
+	width: 50vw;
+	position: absolute;
+	top: 130px;
+	left: 200px;
+	z-index: 2;
+
+}
+#text {
+	width: 50vw;
+	position: absolute;
+	top: 200px;
+	left: 180px;
+	z-index: 2;
+
+}
+.flex2die {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 28%;
+	top: 13%;
+	z-index: 1;
+
+
+
+}
+.email-box {
+	height: 7vh;
+	width: 28vw;
+	color: white;
+	background-color: gray;
+	margin: 2.6px;
+}
+
+.messages {
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 80%;
+	top: 20%;
+}
+#books {
+	width: 40vw;
+	z-index: 2;
+
+}
+.square{
+	height: 20px;
+	width: 20px;
+	background-color: red;
+	animation:  spin 5s ease-in 0s infinite reverse;
+	position: absolute;
+	top: 5px;
+	left:40px;
+	z-index: 1;
+}
+
+
+/*START Projects */
+#bee {
+	background-image: url("DSC00735.jpg");
+	background-size: cover;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:100px;
+	color: rgba(255,0,0,0);
+}
+
+
+
+#emaillist {
+	position: relative;
+	height: 55vw;
+	top: 27px;
+	left:310px;
+
+}
+/*END Projects */
+
+@keyframes upDown {
+	0% {
+		top: 0px;
+
+	}
+	25% {
+		top: 120px
+	}
+	50% {
+		top: 200px;
+
+	}
+	75% {
+		top: 120px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+@keyframes pulsing {
+	0% {opacity : 0;}
+	50% {opacity: 1;}
+	100% {opacity: 1;}
+}
+
+
+/*
+background-color: #c4b7cb;
+} */
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'Open Sans', sans-serif;
+font-family: 'EB Garamond', serif; */
+/*
+#c4b7cb
+#7fdeff
+#94c5cc
+#545c52
+#8797b2
+*/
