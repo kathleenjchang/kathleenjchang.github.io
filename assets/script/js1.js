@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 
 //Code for the photos tab
@@ -22,7 +20,7 @@ $(document).ready(function() {
     $("#" + pictures[i]).css("padding-top", "100px");
     $("#" + pictures[i]).css("margin", "20px");
 
-
+    console.log("hiss hiss");
 
 
   }
@@ -172,6 +170,8 @@ let height1 = Math.random() * $(window).height();
 for (k = 0; k < 20; k++) {
  height1 = Math.random() * $(window).height();
   width1 = Math.random() * $(window).width();
+
+      console.log("hiss hiss 2");
   // if (height1 < (2/3 * $(window).height()) && height1 > (1/3 * $(window).height())&& width1 < ((2/3)  * $(window).width()) && width > (1/3 * $(window).width()) ) {
   //   height1 = Math.random() * $(window).height();
   //   width1 = Math.random() * $(window).width();
