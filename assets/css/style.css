@@ -46,7 +46,7 @@ body {
 }
 
 .container{
-	background-image: url("background.PNG");
+	background-image: url("background.png");
 	background-size:cover;
 	height: 95vh;
 	width: 80vw;
