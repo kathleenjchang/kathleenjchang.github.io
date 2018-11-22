@@ -433,9 +433,10 @@ body {
 #showlater {
 	color: #01ff1f;
 	z-index: 1;
-	display: absolute;
+	position: absolute;
 	left: 20px;
-	top: 40px;
+	top: 45%;
+
 }
 #terminal {
 	width: 50vw;
@@ -444,6 +445,7 @@ body {
 	left: 50px;
 	z-index: 2;
 }
+
 #mlab {
 	width: 50vw;
 	position: absolute;
@@ -502,7 +504,23 @@ body {
 	left:40px;
 	z-index: 1;
 }
+#f3-bg {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
+.onetwothree {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+
+}
+
+.htab {
+	font-size: 20px;
+}
 
 /*START Projects */
 #bee {
@@ -525,6 +543,8 @@ body {
 	left:310px;
 
 }
+
+
 /*END Projects */
 
 @keyframes upDown {
