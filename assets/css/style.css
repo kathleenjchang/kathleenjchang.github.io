@@ -15,12 +15,15 @@ h1 {
 	color: white;
 	margin: 20px;
 	z-index: 1;
+	background-color: transparent;
 }
 p {
 	margin: 20px;
 	color: white;
 	z-index: 1;
+	background-color: transparent;
 }
+
 a:hover {
 	cursor: pointer;
 	color: blue;
@@ -113,6 +116,13 @@ body {
 }
 .linkages {
 	margin: 10px;
+}
+
+.wrapp {
+	background-image: url("simple.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 #contact {
