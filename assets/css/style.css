@@ -433,6 +433,9 @@ body {
 #showlater {
 	color: #01ff1f;
 	z-index: 1;
+	display: absolute;
+	left: 20px;
+	top: 40px;
 }
 #terminal {
 	width: 50vw;

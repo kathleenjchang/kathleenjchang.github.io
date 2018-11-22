@@ -123,7 +123,7 @@ $("#showlater").css("display", "none");
 $("#text").css("display", "none");
 var arr = ["terminal", "mlab", "text"];
 let counter = 0;
-$("#f2-bg").click(function() {
+$(window).click(function() {
   if (counter == 0) {
     $('#hidelater').fadeOut(100);
       $("#showlater").css("display", "inline");
