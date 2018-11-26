@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-//Code for the photos tab
+  //Code for the photos tab
 
   let a = 0, b = 0, c = 0, d = 0, e = 0, f = 0, g= 0, h=0,j=0;
   var pictures = ["DSC00735","DSC06736", "DSC09000", "DSC07645", "DSC07750", "DSC08292", "DSC07788", "DSC05795", "DSC05777"];
@@ -122,7 +122,7 @@ let counter = 0;
 $(window).click(function() {
   if (counter == 0) {
     $('#hidelater').fadeOut(100);
-      $("#showlater").css("display", "inline");
+    $("#showlater").css("display", "inline");
   }
   if ((counter % 3) == 1 || counter %3== 2 || counter %3== 0) {
     let h = $(window).height() / 2;
@@ -156,21 +156,15 @@ for (i = 1; i < 8; i++) {
 
   $("#box" + i).css("display", "none");
 }
-
 //End code
 
-//Code for generating lots of squares
+//Code for generating lots of squares in books tab
 var colors = ["red", "blue", "yellow"];
 let width1 = Math.random() * $(window).width();
 let height1 = Math.random() * $(window).height();
 for (k = 0; k < 20; k++) {
- height1 = Math.random() * $(window).height();
+  height1 = Math.random() * $(window).height();
   width1 = Math.random() * $(window).width();
-
-  // if (height1 < (2/3 * $(window).height()) && height1 > (1/3 * $(window).height())&& width1 < ((2/3)  * $(window).width()) && width > (1/3 * $(window).width()) ) {
-  //   height1 = Math.random() * $(window).height();
-  //   width1 = Math.random() * $(window).width();
-  // }
   $("#f3-bg").append("<div class = 'square' style ='left: " + width1 + "px; top:"+height1 + "px; background-color:" + colors[k%3] + "';></div>");
 
 }
