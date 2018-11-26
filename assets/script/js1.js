@@ -19,10 +19,6 @@ $(document).ready(function() {
     $("#" + pictures[i]).css("text-align", "center");
     $("#" + pictures[i]).css("padding-top", "100px");
     $("#" + pictures[i]).css("margin", "20px");
-
-    console.log("hiss hiss");
-
-
   }
   $("#"+pictures[0]).click(function() {
     if (a == 0) {
