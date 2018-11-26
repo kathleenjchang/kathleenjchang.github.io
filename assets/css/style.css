@@ -388,7 +388,7 @@ body {
 
 }
 .tennis-background {
-	background: url(../img/simple.PNG) no-repeat center center fixed;
+	background: url('../img/simple.PNG') no-repeat center center fixed;
 }
 
 .f1-background {
