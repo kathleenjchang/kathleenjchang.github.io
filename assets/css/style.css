@@ -34,6 +34,10 @@ a {
 	font-size: 40px;
 	text-decoration: none;
 }
+
+a:hover {
+	cursor: pointer;
+}
 body {
 	font-family: 'Nintendo DS BIOS';
 	background-color: white;
