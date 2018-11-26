@@ -347,7 +347,7 @@ body {
 	height: 95vh;
 	position: absolute;
 	top: 0px;
-	background: url('simple.PNG');
+	background: url('simple.png');
 	background-repeat: no-repeat;
 	background-position: cover;
 	background-attachment: scroll;
@@ -361,7 +361,7 @@ body {
 	position: absolute;
 	left: 100vw;
 	top: 0px;
-	background: url('emails.PNG');
+	background: url('emails.png');
 	background-repeat: no-repeat;
 	background-position: cover;
 	background-attachment: scroll;
@@ -374,7 +374,7 @@ body {
 	height: 95vh;
 	position: absolute;
 	top: 0px;
-	background-image: url('bg.PNG');
+	background-image: url('bg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -392,7 +392,7 @@ body {
 }
 
 .f1-background {
-	background: url('simple.PNG') no-repeat center center fixed;
+	background: url('simple.png') no-repeat center center fixed;
 	height: 100vh;
 	width: 100vw;
 	position: absolute;
@@ -420,7 +420,7 @@ body {
 }
 
 #f1-bg {
-	background-image: url("simple.PNG");
+	background-image: url("simple.png");
 	background-size:cover;
 	width: 100vw;
 	background-repeat: no-repeat;
