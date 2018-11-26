@@ -112,7 +112,7 @@ $(document).ready(function() {
 //End disgusting Code
 //Code for the 2nd hobbies tab
 
-$("#f2-bg").append("<p id = 'hidelater' style = 'position: absolute; left: 40px; top: 45%; color: #01ff1f;'>click to see more</p>");
+$("#f2-bg").append("<p id = 'hidelater'>click to see more</p>");
 $("#terminal").css("display", "none");
 $("#mlab").css("display", "none");
 $("#showlater").css("display", "none");
