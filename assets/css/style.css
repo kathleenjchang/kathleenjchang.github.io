@@ -2,6 +2,7 @@
 @font-face{
 	font-family:'Nintendo DS BIOS';
 	src:url('assets/fonts/nintendo.ttf') format('truetype');
+
 }
 @font-face{
 	font-family: 'kindergarten';
@@ -9,7 +10,7 @@
 }
 /*General Tags*/
 html {
-	font-family: 'Verdana', sans-serif;
+	font-family: 'Helvetica Neue';
 }
 h1 {
 	color: white;
@@ -238,7 +239,7 @@ body {
 	font-size: 30px;
 	width: 300px;
 
-	font-family: "Nintendo DS BIOS";
+	font-family: "Nintendo DS BIOS", "Helvetica Neue";
 }
 
 #intro-pic {
@@ -620,19 +621,3 @@ body {
 		font-size: 20px;
 	}
 }
-
-
-/*
-background-color: #c4b7cb;
-} */
-/* font-family: 'Ubuntu', sans-serif;
-font-family: 'Ubuntu Mono', monospace;
-font-family: 'Open Sans', sans-serif;
-font-family: 'EB Garamond', serif; */
-/*
-#c4b7cb
-#7fdeff
-#94c5cc
-#545c52
-#8797b2
-*/
