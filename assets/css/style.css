@@ -41,7 +41,7 @@ a:hover {
 }
 body {
 
-	font-family: 'Nintendo DS BIOS', 'Helvetica Neue';
+	font-family: 'Ubuntu', 'Helvetica Neue';
 	background-color: white;
 }
 
@@ -75,14 +75,14 @@ body {
 }
 .greeting {
 
-	font-family: 'Nintendo DS BIOS', 'Helvetica Neue';
+	font-family: 'Ubuntu', 'Helvetica Neue';
 	font-size: 60px;
 	color: white;
 }
 
 .yt {
 
-	font-family: 'Nintendo DS BIOS', 'Helvetica Neue';
+	font-family: 'Ubuntu', 'Helvetica Neue';
 	font-size: 40px;
 	color: white;
 
@@ -215,7 +215,7 @@ body {
 }
 .intro-title{
 
-	font-family: 'Nintendo DS BIOS', 'Helvetica Neue';
+	font-family: 'Ubuntu', 'Helvetica Neue';
 	font-size: 60px;
 	color: black;
 	margin: 20px;
@@ -223,7 +223,7 @@ body {
 
 .projects-title{
 
-	font-family: 'Nintendo DS BIOS', 'Helvetica Neue';
+	font-family: 'Ubuntu', 'Helvetica Neue';
 	font-size: 60px;
 	color: white;
 }
@@ -239,7 +239,7 @@ body {
 	font-size: 30px;
 	width: 300px;
 
-	font-family: "Nintendo DS BIOS", "Helvetica Neue";
+	font-family: 'Ubuntu', "Helvetica Neue";
 }
 
 #intro-pic {
@@ -256,7 +256,7 @@ body {
 }
 .descript {
 
-	font-family: 'Nintendo DS BIOS', 'Helvetica Neue';
+	font-family: 'Ubuntu', 'Helvetica Neue';
 	font-size: 20px;
 }
 
@@ -289,7 +289,7 @@ body {
 }
 .nav-links {
 
-	font-family: 'Nintendo DS BIOS', 'Helvetica Neue';
+	font-family: 'Ubuntu', 'Helvetica Neue';
 	margin: 20px;
 	text-decoration: none;
 	color: white;
@@ -306,7 +306,7 @@ body {
 }
 .nav-links2 {
 
-	font-family: 'Nintendo DS BIOS', 'Helvetica Neue';
+	font-family: 'Ubuntu', 'Helvetica Neue';
 	color: black;
 	font-size: 20px;
 	text-align: right;
@@ -314,7 +314,7 @@ body {
 }
 .nav-links3 {
 
-	font-family: 'Nintendo DS BIOS', 'Helvetica Neue';
+	font-family: 'Ubuntu', 'Helvetica Neue';
 	color: black;
 	font-size: 20px;
 	text-align: right;
