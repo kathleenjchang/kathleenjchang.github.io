@@ -6,6 +6,8 @@
 	<title> Hi</title>
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<link rel = "icon" type = "image/png" href = "assets/img/favicon.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js"></script>
 </head>
 <header>
 </header>
@@ -13,10 +15,27 @@
 	<div class = "mega-cont">
 		<div class = "container">
 			<div class = "top">
-				<div class = "greeting"> super excited you're here!</div>
-				<div class = "temp">
-					<div class = "yt"> yours truly, kathleen chang </div>
-				</div>
+				<script type = "text/javascript">
+				$(function() {
+	 						new TypeIt('#greeting', {
+							speed: 70,
+							breakLines: false,
+							autoStart: false
+				})
+
+				.type('super excited you are here!')
+				.pause(500)
+				.delete()
+				.type('yours truly, Kathleen')
+				.pause(1000)
+				.delete()
+				.type('start')
+
+			});
+
+				</script>
+				<p id = "greeting"></p>
+
 			</div>
 			<div class ="flex2impress">
 				<img id = "mainphoto" src = "assets/img/DSC04557.JPG">

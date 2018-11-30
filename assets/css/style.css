@@ -64,6 +64,7 @@ body {
 	position: absolute;
 	top: 6%;
 	padding: 35px;
+	z-index: 0;
 
 }
 
@@ -73,24 +74,10 @@ body {
 	justify-content: space-around;
 	margin: 20px;
 }
-.greeting {
-	font-family: 'Ubuntu', 'Helvetica Neue';
+
+#greeting {
 	font-size: 40px;
-	color: white;
-}
-
-.yt {
-	font-family: 'Ubuntu', 'Helvetica Neue';
-	font-size: 30px;
-	color: white;
-
-	/* color: #bfd7db; */
-}
-.temp {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
 }
 
 #mainphoto{
@@ -99,7 +86,7 @@ body {
 	transform: rotate(2deg);
 	animation: spin 2s ease-in 0s 1 reverse;
 }
-#mainphoto:hover {
+#mainphoto:hoverr {
 	animation: spin 2s linear 0s infinite normal;
 }
 .flex2impress {
