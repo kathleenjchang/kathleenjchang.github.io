@@ -459,7 +459,13 @@ body {
 	top: 45%;
 	color: #01ff1f;
 	animation: pulse 3s linear 0s infinite normal;
+
 }
+
+#hidelater:hover, #showlater:hover {
+	cursor: pointer;
+}
+
 #terminal {
 	width: 50vw;
 	position: absolute;
