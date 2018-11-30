@@ -74,16 +74,14 @@ body {
 	margin: 20px;
 }
 .greeting {
-
 	font-family: 'Ubuntu', 'Helvetica Neue';
-	font-size: 60px;
+	font-size: 40px;
 	color: white;
 }
 
 .yt {
-
 	font-family: 'Ubuntu', 'Helvetica Neue';
-	font-size: 40px;
+	font-size: 30px;
 	color: white;
 
 	/* color: #bfd7db; */
@@ -198,7 +196,7 @@ body {
 	position: fixed;
 	right: 40px;
 	bottom: 60px;
-	font-size: 60px;
+	font-size: 40px;
 }
 #organize-pics {
 	display: flex;
@@ -216,7 +214,7 @@ body {
 .intro-title{
 
 	font-family: 'Ubuntu', 'Helvetica Neue';
-	font-size: 60px;
+	font-size: 40px;
 	color: black;
 	margin: 20px;
 }
@@ -224,7 +222,7 @@ body {
 .projects-title{
 
 	font-family: 'Ubuntu', 'Helvetica Neue';
-	font-size: 60px;
+	font-size: 40px;
 	color: white;
 }
 
@@ -236,7 +234,7 @@ body {
 
 }
 .txt {
-	font-size: 30px;
+	font-size: 20px;
 	width: 300px;
 
 	font-family: 'Ubuntu', "Helvetica Neue";

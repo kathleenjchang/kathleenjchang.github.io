@@ -160,8 +160,8 @@ for (i = 1; i < 8; i++) {
 
 //Code for generating lots of squares in books tab
 var colors = ["red", "blue", "yellow"];
-let width1 = Math.random() * $(window).width();
-let height1 = Math.random() * $(window).height();
+let width1 = Math.random() * ($(window).width()-10);
+let height1 = Math.random() * ($(window).height()-10);
 for (k = 0; k < 20; k++) {
   height1 = Math.random() * $(window).height();
   width1 = Math.random() * $(window).width();
