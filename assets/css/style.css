@@ -62,15 +62,22 @@ h1 {
   border-style: solid;
   border-color: #555 transparent transparent transparent;
 }
+#f4-bg {
+	background: linear-gradient(#e66465, #9198e5);
+}
+#f2-bg {
+	background: linear-gradient(#9198e5, #c5fafa);
+}
+#f3-bg {
+	background: linear-gradient(#c5fafa, #034f9e);
 
+}
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
 }
 
 #socials {
-	filter: invert(100%);
-	background-color: white;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -102,10 +109,13 @@ h1 {
 	text-align:center;
 	opacity: 0;
 	position: relative;
-	top: -270px;
-	height: 200px;
+	top: -255px;
+	height: 167px;
 	padding: 40px;
-	width: 300px;
+	width: 287px;
+	border-style: solid;
+   border-width: 3px;
+	 border-color: white;
 	-webkit-transition: opacity .25s ease;
 }
 .box:hover .overlay {
@@ -114,9 +124,10 @@ h1 {
 
 
 .icon {
+	filter: invert(100%);
 	width: 20px;
 	height: 20px;
-	background-color: white;
+
 }
 .icon:hover {
 	cursor: pointer;
