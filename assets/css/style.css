@@ -1,11 +1,9 @@
-
-
 html {
 	font-family: 'Thasadith', sans-serif;
 	color: white;
-
-
+	overflow: hidden;
 }
+
 a {
 	color: white;
 	margin: 10px;
@@ -153,7 +151,6 @@ h1 {
 	left: 210px;
 	top: 250px;
 	z-index:2;
-
 }
 
 #ball {
@@ -166,12 +163,33 @@ h1 {
 	z-index: 3;
 }
 
+#down {
+	height: 20px;
+	width: auto;
+	filter: invert(100%);
+	position: absolute;
+	bottom: 10vh;
+	left: 50vw;
+	animation: jiggle 1s ease-out 0s 10 alternate;
+
+}
 
 #f1-bg {
 	background-image: url("simple.png");
 	background-size:cover;
 	width: 100vw;
 	background-repeat: no-repeat;
+}
+@keyframes jiggle {
+	0% {
+
+		bottom: 3vh;
+	}
+	100% {
+		bottom: 6vh;
+	}
+
+
 }
 @keyframes upDown {
 	0% {

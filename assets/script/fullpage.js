@@ -268,7 +268,7 @@
 
             }else{
                 css($htmlBody, {
-                    'overflow' : 'visible',
+                    'overflow' : 'hidden',
                     'height' : 'initial'
                 });
 
