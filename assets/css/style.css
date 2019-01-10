@@ -399,6 +399,7 @@ body {
 	left: 210px;
 	top: 250px;
 	z-index:2;
+
 }
 
 #ball {
@@ -592,23 +593,23 @@ body {
 }
 @keyframes pulse {
 	0% {opacity: 0;
-	font-size: 20px; }
+		font-size: 20px; }
 
-	25% {
-		opacity: .5;
-		font-size: 30px;
-	}
+		25% {
+			opacity: .5;
+			font-size: 30px;
+		}
 
-	50% {
-		opacity: 1;
-		font-size: 35px;
+		50% {
+			opacity: 1;
+			font-size: 35px;
+		}
+		75% {
+			opacity: .5;
+			font-size: 30px;
+		}
+		100% {
+			opacity: 0;
+			font-size: 20px;
+		}
 	}
-	75% {
-		opacity: .5;
-		font-size: 30px;
-	}
-	100% {
-		opacity: 0;
-		font-size: 20px;
-	}
-}
