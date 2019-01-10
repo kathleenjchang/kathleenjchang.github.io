@@ -1,52 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans|Ubuntu|Ubuntu+Mono" rel="stylesheet">
-	<title> Hi</title>
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-	<link rel = "icon" type = "image/png" href = "assets/img/favicon.png">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Hello there.</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/fullpage.css" />
+  <script type="text/javascript" src="assets/script/fullpage.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js"></script>
 </head>
-<header>
-</header>
 <body>
-	<div class = "mega-cont">
-		<div class = "container">
-			<div class = "top">
-				<script type = "text/javascript">
-				$(function() {
-	 						new TypeIt('#greeting', {
-							speed: 70,
-							breakLines: false,
-							autoStart: false
-				})
+  <div id = "fullpage">
 
-				.type('super excited you are here!')
-				.pause(500)
-				.delete()
-				.type('yours truly, Kathleen')
-				.pause(1000)
-				.delete()
-				.type('start')
+    <div id = "f4-bg" class = "section">
+      <div class = "nav">
+        <a href = "#f4-bg">HOME</a>
+        <a href = "#f2-bg">ABOUT</a>
+        <a href = "#f3-bg">PROJECTS</a>
+        <a href = "#f1-bg">EXTRA </a>
+      </div>
+      <p id = "example1"></p>
+    </div>
+    <div id = "f2-bg"class = "section">
+      <div class = "nav">
+        <a href = "#f4-bg">HOME</a>
+        <a href = "#f2-bg">ABOUT</a>
+        <a href = "#f3-bg">PROJECTS</a>
+        <a href = "#f1-bg">EXTRA </a>
+      </div>
+      <p> My name is Kathleen. I am a second year undergraduate in the College of Engineering at the University of California, Berkeley. I am originally from San Diego, CA. I like cats, reading books, and eating dessert-type food.</p>
+      <img src = "">
+      <div id = "socials">
+        <!--Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>-->
+        <a style = "margin: 0px;" href = "https://www.goodreads.com/user/show/34034526-kathleen"><img class = "icon" src = "assets/img/book.png"></a>
+        <a style = "margin: 0px;" href = "https://www.linkedin.com/in/kathleenchang"><img class = "icon" src = "assets/img/in.png"></a>
+        <a style = "margin: 0px;" href = "https://drive.google.com/file/d/1XKl301EpZgEBfRBDa2MpHG9WMlv8Mdcw/view?usp=sharing"><img class = "icon" src = "assets/img/resume.png"></a>
+        <div class = "tooltip">
+          <img class = "icon" src = "assets/img/mail.png">
+          <span class = "tooltiptext"> kathleenchang at berkeley dot edu </span>
+        </div>
 
-			});
+      </div>
+    </div>
 
-				</script>
-				<p id = "greeting"></p>
+    <div id = "f3-bg" class = "section">
+      <div class = "nav">
+        <a href = "#f4-bg">HOME</a>
+        <a href = "#f2-bg">ABOUT</a>
+        <a href = "#f3-bg">PROJECTS</a>
+        <a href = "#f1-bg">EXTRA </a>
+      </div>
+      <div id = "project-container">
+        <div class = "internal-project">
+          <div class = "box">
+          <img class = "ps" src = "assets/img/p1.JPG">
+          <div class = "overlay"><h3> Geodesic Coordinate Systems </h3> I built an app for city surveyors to map between coordinate systems. </div>
+        </div>
+        <div class = "box">
+        <img class = "ps" src = "assets/img/p2.JPG">
+        <div class = "overlay"><h3> Climate Change Model </h3> As a group project, we modelled climate change with emission wedges. </div>
+      </div>
+        </div>
+        <div class = "internal-project">
+          <div class = "box">
+          <img class = "ps" src = "assets/img/p3.JPG">
+          <div class = "overlay"> <h3> Maze Generator </h3> A two-player game that generates a random number of rooms and hallways. </div>
+        </div><div class = "box">
+        <img class = "ps" src = "assets/img/p4.JPG">
+        <div class = "overlay"> <h3> Bear Maps </h3>Rastered a Google Maps of Berkeley that can give directions </div>
+      </div>
+        </div>
+      </div>
+    </div>
+    <div id = "f1-bg" class = "section">
+      <div class = "nav">
+        <a href = "#f4-bg">HOME</a>
+        <a href = "#f2-bg">ABOUT</a>
+        <a href = "#f3-bg">PROJECTS</a>
+        <a href = "#f1-bg">EXTRA </a>
+      </div>
+      <img id = "ball" src = "assets/img/ball.png">
+      <img id = "shadow" src = "assets/img/shadow.png">
+      <h1> let's play. </h1>
 
-			</div>
-			<div class ="flex2impress">
-				<img id = "mainphoto" src = "assets/img/DSC04557.JPG">
-				<div class = "nav">
-					<a class = "linkages" href = "index.html">> start</a>
-					<a class = "linkages" href = "intro.html">> intro</a>
-					<a class = "linkages" href = "photos.html">> photos</a>
-					<a class = "linkages" href ="hobbies1.html">> hobbies</a>
-				</div>
-			</div>
-		</div>
-	</div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+  <script type="text/javascript">
+  var myFullpage = new fullpage('#fullpage', {
+    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
+    sectionsColor: ['#000000', '#000000', '#000000', '#034f9e'],
+    scrollBar: true,
+
+  });
+
+  new TypeIt('#example1', {
+    strings: ["Hello.","You've come to the right place."],
+    speed:100,
+    autoStart: false
+  });
+</script>
 </body>
+
 </html>
