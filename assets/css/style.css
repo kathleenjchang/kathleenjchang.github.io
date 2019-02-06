@@ -10,8 +10,9 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: blue;
-	text-decoration: underline;
+
+	opacity: .5;
+
 	cursor: pointer;
 }
 
