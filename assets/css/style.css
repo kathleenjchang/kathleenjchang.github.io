@@ -176,6 +176,14 @@ h1 {
 
 }
 
+#mephoto {
+	width: 200px;
+	position: absolute;
+	bottom: 100px;
+	z-index: 1;
+	opacity: 0;
+}
+
 #f1-bg {
 	background-image: url("simple.png");
 	background-size:cover;
