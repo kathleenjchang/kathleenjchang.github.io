@@ -17,11 +17,12 @@ a:hover {
 }
 
 p, h1{
-	margin-left: 20px;
+	/* margin-left: 20px; */
 
 }
 p {
-	font-size: 40px;
+	font-size: 30px;
+	/* padding: 30px; */
 }
 
 h1 {
@@ -77,12 +78,19 @@ h1 {
   opacity: 1;
 }
 
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+}
+
 #socials {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	width: 150px;
-	margin-left: 30px;
+	/* padding: 20px; */
+	position: relative;
 }
 .ps {
 	width: 370px;
@@ -102,6 +110,10 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+}
+
+.fails {
+	padding: 30px;
 }
 
 .overlay {
@@ -146,6 +158,7 @@ h1 {
 
 #example1 {
 	font-size: 40px;
+	padding: 40px;
 }
 
 #shadow {
@@ -200,6 +213,10 @@ h1 {
 	background-size:cover;
 	width: 100vw;
 	background-repeat: no-repeat;
+}
+
+.tenniswords {
+	padding: 40px;
 }
 @keyframes jiggle {
 	0% {
