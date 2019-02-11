@@ -154,6 +154,7 @@ h1 {
 	position: absolute;
 	top: 40px;
 	right: 40px;
+	z-index: 2;
 }
 
 #example1 {
@@ -218,6 +219,26 @@ h1 {
 	background-repeat: no-repeat;
 }
 
+.food1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.food2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: space-around;
+
+}
+
+.foodsize {
+
+width: 200px;
+
+}
 .tenniswords {
 	padding: 40px;
 }
