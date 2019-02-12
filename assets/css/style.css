@@ -239,6 +239,25 @@ h1 {
 width: 200px;
 
 }
+
+.nfp {
+	font-size: 50px;
+	color: white;
+	position: relative;
+	left: 20px;
+	opacity: .8;
+
+}
+
+.nfp2 {
+	position: relative;
+	left: -250px;
+	top: 8px;
+	color: black;
+	z-index: -1;
+	opacity: 1;
+}
+
 .tenniswords {
 	padding: 40px;
 }
