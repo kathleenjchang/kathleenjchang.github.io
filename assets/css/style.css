@@ -235,8 +235,28 @@ h1 {
 }
 
 .foodsize {
+	width: 200px;
 
-width: 200px;
+}
+
+.food-container {
+	position: relative;
+	text-align:center;
+	color: white;
+}
+
+.food-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 1;
+	z-index: -1;
+
+}
+
+.foodsize:hover {
+	opacity: 0;
 
 }
 
@@ -247,6 +267,10 @@ width: 200px;
 	left: 20px;
 	opacity: .8;
 
+}
+
+.nfp:hover, .nfp2:hover {
+		animation: jiggle2 1s ease-out 0s 10 alternate;
 }
 
 .nfp2 {
@@ -269,9 +293,19 @@ width: 200px;
 	100% {
 		bottom: 6vh;
 	}
-
-
 }
+
+@keyframes jiggle2 {
+	0% {
+
+		background-color: pink;
+	}
+	100% {
+		transform: rotate(25deg);
+	}
+}
+
+
 @keyframes upDown {
 	0% {
 		top: 0px;
