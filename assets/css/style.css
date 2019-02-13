@@ -115,7 +115,9 @@ h1 {
 }
 
 .overlay {
-	background: rgba(0, 0,0, .5);
+	color: rgba(	72,209,204,1);
+	background : rgba(	119,136,153,.5);
+	text-shadow: 2px 2px #ff0000;
 	text-align:center;
 	opacity: 0;
 	position: relative;
